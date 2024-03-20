@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styling.css">
+    <title>Admin | Westcoast Education</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="pageTitle">Westcoast Education</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li id="loginBtn"><a href="login.html">Log In</a></li>
+          <li id="logoutBtn" class="hide"><a href="index.html">Log Out</a></li>
+          <li class="adminOnly"><a href="admin.html">Admin View</a></li>
+        </ul>
+      </nav>
+    </header>
+    <hr>
+    <main class="adminList">
+      <h1>Booked Courses</h1>
+      <div id="bookingsList"></div>
+    </main>
+    <hr class="hrFooter">
+    <footer>
+      <div>
+        <h3>Contact Information</h3>
+        <p>info@westcoasteducation.com</p>
+      </div>
+      <div>
+        <h3>Opening Hours</h3>
+        <div>
+          <p>Monday & Friday</p>
+          <p>09.00 - 12.00</p>
+        </div>
+        <div>
+          <p>Tuesday - Thursday</p>
+          <p>09.00 - 15.00</p>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="./assets/js/admin.js"></script>
+    <script type="module" src="./assets/js/main.js"></script>
+  </body>
+</html>

@@ -23,4 +23,3 @@ W3C CSS Validation Service was used to check my css for any errors. No errors wh
 
 
 Igor Ristic
-

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styling.css">
+    <title>Purchase Form | Westcoast Education</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="pageTitle">Westcoast Education</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li id="loginBtn"><a href="login.html">Log In</a></li>
+          <li id="logoutBtn" class="hide"><a href="index.html">Log Out</a></li>
+          <li class="adminOnly"><a href="admin.html">Admin View</a></li>
+        </ul>
+      </nav>
+    </header>
+    <hr>
+    <main>
+      <form id="purchaseForm">
+        <h2>Purchase Course</h2>
+        <div>
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required>
+        </div>
+        <div>
+          <label for="billingAddress">Billing Address:</label>
+          <input
+            type="text"
+            id="billingAddress"
+            name="billingAddress"
+            required>
+        </div>
+        <div>
+          <label for="phoneNumber">Phone Number:</label>
+          <input type="tel" id="phoneNumber" name="phoneNumber" required>
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <button type="submit" class="cta">Complete Purchase</button>
+      </form>
+    </main>
+    <hr class="hrFooter">
+    <footer>
+      <div>
+        <h3>Contact Information</h3>
+        <p>info@westcoasteducation.com</p>
+      </div>
+      <div>
+        <h3>Opening Hours</h3>
+        <div>
+          <p>Monday & Friday</p>
+          <p>09.00 - 12.00</p>
+        </div>
+        <div>
+          <p>Tuesday - Thursday</p>
+          <p>09.00 - 15.00</p>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="./assets/js/purchase.js"></script>
+  </body>
+</html>

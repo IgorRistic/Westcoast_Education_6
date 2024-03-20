@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styling.css">
+    <title>Add Courses | Westcoast Education</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="pageTitle">Westcoast Education</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li id="loginBtn"><a href="login.html">Log In</a></li>
+          <li id="logoutBtn" class="hide"><a href="index.html">Log Out</a></li>
+          <li class="adminOnly"><a href="admin.html">Admin View</a></li>
+        </ul>
+      </nav>
+    </header>
+    <hr>
+    <main>
+      <form id="addCourseForm">
+        <div>
+          <label for="title">Course Title:</label>
+          <input type="text" id="title" name="title" required>
+        </div>
+        <div>
+          <label for="courseNumber">Course Number:</label>
+          <input type="text" id="courseNumber" name="courseNumber" required>
+        </div>
+        <div>
+          <label for="durationDays">Duration (Days):</label>
+          <input type="number" id="durationDays" name="durationDays" required>
+        </div>
+        <div>
+          <label for="price">Price:</label>
+          <input type="number" id="price" name="price" required>
+        </div>
+        <div>
+          <label for="image">Choose an Image:</label>
+          <select id="image" name="image" required>
+            <option label="Choose an Image"></option>
+            <option value="assets/img/frontend-development.webp">
+              Frontend Development
+            </option>
+            <option value="assets/img/backend-development.webp">
+              Backend Development
+            </option>
+            <option value="assets/img/fullstack-development.webp">
+              Fullstack Development
+            </option>
+            <option value="assets/img/net-development.webp">
+              NET Development
+            </option>
+            <option value="assets/img/ai-development.webp">
+              AI Development
+            </option>
+          </select>
+        </div>
+        <button type="submit" class="cta">Add Course</button>
+      </form>
+    </main>
+    <hr class="hrFooter">
+    <footer>
+      <div>
+        <h3>Contact Information</h3>
+        <p>info@westcoasteducation.com</p>
+      </div>
+      <div>
+        <h3>Opening Hours</h3>
+        <div>
+          <p>Monday & Friday</p>
+          <p>09.00 - 12.00</p>
+        </div>
+        <div>
+          <p>Tuesday - Thursday</p>
+          <p>09.00 - 15.00</p>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="./assets/js/add-course.js"></script>
+  </body>
+</html>

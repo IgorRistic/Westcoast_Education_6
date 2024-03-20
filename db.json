@@ -1,0 +1,85 @@
+{
+  "accounts": [
+    {
+      "id": "6869",
+      "email": "testing@gmail.com",
+      "password": "test1234"
+    },
+    {
+      "email": "admin@example.com",
+      "password": "admin123",
+      "id": "admin1",
+      "role": "admin"
+    },
+    {
+      "id": "8f66",
+      "email": "testtwo@gmail.com",
+      "password": "test1234"
+    }
+  ],
+  "createdCourses": [
+    {
+      "title": "Frontend Development",
+      "courseNumber": "FD101",
+      "durationDays": "365",
+      "price": "300",
+      "image": "assets/img/frontend-development.webp",
+      "id": "1"
+    },
+    {
+      "id": "9b0f",
+      "title": "Backend Development",
+      "courseNumber": "BD101",
+      "durationDays": "365",
+      "price": "300",
+      "image": "assets/img/backend-development.webp"
+    },
+    {
+      "title": "Fullstack Development",
+      "courseNumber": "FSD101",
+      "durationDays": "730",
+      "price": "600",
+      "image": "assets/img/fullstack-development.webp",
+      "id": "a8aa"
+    },
+    {
+      "id": "02e0",
+      "title": ".Net Development",
+      "courseNumber": "ND101",
+      "durationDays": "365",
+      "price": "350",
+      "image": "assets/img/net-development.webp"
+    },
+    {
+      "id": "8a4e",
+      "title": "AI Development",
+      "courseNumber": "AD101",
+      "durationDays": "700",
+      "price": "450",
+      "image": "assets/img/ai-development.webp"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "1",
+      "courseId": "123",
+      "username": "johndoe",
+      "email": "john@example.com",
+      "phone": "1234"
+    },
+    {
+      "id": "ef0a",
+      "courseId": "1",
+      "username": "ludusnexus",
+      "email": "drako886@gmail.com",
+      "phone": "0729237801"
+    },
+    {
+      "id": "e3eb",
+      "courseId": "01d4",
+      "username": "ludusnexus",
+      "email": "drako886@gmail.com",
+      "phone": "0729237801"
+    }
+  ]
+}

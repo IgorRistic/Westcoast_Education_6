@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styling.css">
+    <title>Log In | Westcoast Education</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="pageTitle">Westcoast Education</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li id="loginBtn"><a href="login.html">Log In</a></li>
+          <li id="logoutBtn" class="hide"><a href="index.html">Log Out</a></li>
+          <li class="adminOnly"><a href="admin.html">Admin View</a></li>
+        </ul>
+      </nav>
+    </header>
+    <hr>
+    <main>
+      <form>
+        <h2>Log In</h2>
+        <div>
+          <label for="email">Email</label>
+          <input
+            type="email"
+            placeholder="email"
+            id="email"
+            name="email"
+            required
+            autocomplete="email">
+        </div>
+        <div>
+          <label for="password">Password</label>
+          <input
+            type="password"
+            placeholder="password"
+            id="password"
+            name="password"
+            required
+            autocomplete="current-password">
+        </div>
+        <button type="button" class="cta" id="loginBtnAccount">Log In</button>
+        <a href="create-account.html">Create Account</a>
+      </form>
+    </main>
+    <hr class="hrFooter">
+    <footer>
+      <div>
+        <h3>Contact Information</h3>
+        <p>info@westcoasteducation.com</p>
+      </div>
+      <div>
+        <h3>Opening Hours</h3>
+        <div>
+          <p>Monday & Friday</p>
+          <p>09.00 - 12.00</p>
+        </div>
+        <div>
+          <p>Tuesday - Thursday</p>
+          <p>09.00 - 15.00</p>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="./assets/js/login.js"></script>
+    <script type="module" src="./assets/js/courses.js"></script>
+  </body>
+</html>

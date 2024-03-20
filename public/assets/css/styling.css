@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/*------------------------------------------- Global Styles */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #f0f4ef;
+  background-color: #0d1821;
+  font-family: "Roboto", sans-serif;
+}
+
+hr {
+  border: 2px solid #344966;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/*------------------------------------------- Buttons */
+
+button {
+  border: none;
+  font-size: larger;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b4cded;
+  color: black;
+}
+
+.cta {
+  padding: 10px;
+  background-color: #344966;
+  display: inline-block;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.hide {
+  display: none;
+}
+
+.addCourse {
+  display: flex;
+  justify-content: center;
+  margin: 5px 30%;
+}
+
+/*------------------------------------------- Navbar and Header */
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 20px;
+  font-size: larger;
+}
+
+li {
+  list-style-type: none;
+}
+
+.pageTitle {
+  text-align: center;
+  font-size: 3em;
+  padding-top: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  background-color: #b4cded;
+  color: black;
+}
+
+/*---------------------------------------- main content */
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+figure {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 10px auto;
+  max-width: 800px;
+}
+
+figcaption {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 10px;
+  align-items: center;
+  font-size: larger;
+}
+
+/*---------------------------------------- courses content */
+
+.course-info {
+  display: flex;
+}
+
+h2 {
+  margin: 10px;
+}
+
+/*--------------------------------------- login page */
+
+form,
+.adminList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: larger;
+}
+
+label,
+input {
+  display: table-cell;
+  margin: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+input {
+  border-radius: 5px;
+}
+
+/*--------------------------------------- footer */
+
+footer {
+  margin-top: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  font-size: larger;
+  gap: 20px;
+}
+
+h4 {
+  margin-bottom: 5px;
+}
+
+.hrFooter {
+  margin-top: auto;
+}
+
+/*-------------------------------- media screen */
+
+@media screen and (max-width: 767px) {
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  figure {
+    grid-template-columns: 100%;
+  }
+
+  img {
+    width: 70%;
+    margin: 0 auto;
+  }
+}

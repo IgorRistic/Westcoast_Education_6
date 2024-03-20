@@ -20,3 +20,7 @@ W3C CSS Validation Service was used to check my css for any errors. No errors wh
 
 ![W3C - CSS](./docs/w3c-css.JPG)
 
+
+
+Igor Ristic
+
